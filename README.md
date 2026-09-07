@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/TON_LIEN_DIRECT.png" alt="Let's Gamble Banner" width="100%">
+  <img src="https://i.imgur.com/mcME2y7.png" alt="Let's Gamble Banner" width="100%">
 </p>
 
 # Let's Gamble!
