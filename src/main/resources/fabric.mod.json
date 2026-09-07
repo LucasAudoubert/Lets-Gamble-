@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lets-gamble",
+	"version": "${version}",
+	"name": "Let's gamble!",
+	"description": "A mod for gambling where you can wager on any item you desire!",
+	"authors": [
+		"roucky44"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lets-gamble/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.roucky44.letsgamble.LetSGamble"
+		],
+		"client": [
+			"com.roucky44.letsgamble.client.LetSGambleClient"
+		],
+		"fabric-datagen": [
+			"com.roucky44.letsgamble.client.LetSGambleDataGenerator"
+		]
+	},
+	"mixins": [
+		"lets-gamble.mixins.json",
+		{
+			"config": "lets-gamble.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
